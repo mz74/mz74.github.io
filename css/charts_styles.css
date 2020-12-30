@@ -1,0 +1,119 @@
+.normal_text{fill: var(--text-color); font-size: 0.875em;}
+.mz_normal_text{fill: var(--text-color); font-size: 0.875em;}
+.mz_normal_text_dark{fill:var(--dark-gray); font-size: 0.6em;}
+.mz_small_text{fill: var(--text-color); font-size: 0.6em;}
+.mz_small_text_light{fill: var(--light-gray); font-size: 0.6em;;}
+
+
+/* Chord etc Diagram Text */
+.chord_text{ fill: #696969;  font-family: sans-serif; font-size: calc(10px+0.71vh + 0.71vw);}
+@media (min-width: 500px) {.chord_text{ fill: #696969;  font-family: sans-serif; font-size: calc(10px+0.71vh + 0.71vw);}}
+@media (min-width: 1000px) {.chord_text{ fill: #696969;  font-family: sans-serif; font-size: calc(0.71vh + 0.71vw);}}
+
+/* Legend Text */
+.legend_text{ fill: #696969;  font-family: sans-serif; font-size: calc(1vh + 1vw);}
+@media (min-width: 500px) {.legend_text{ fill: #696969;  font-family: sans-serif; font-size: calc(0.8vh + 0.8vw);}}
+@media (min-width: 1000px) {.legend_text{ fill: #696969;  font-family: sans-serif; font-size: calc(0.5vh + 0.5vw);}}
+
+/* Axis Text */
+.axis_chart text, .axis_xy text{fill: #696969; font-family: sans-serif; font-size: calc(8px + 0.25vh + 1vw)}
+@media (min-width: 500px) {.axis_chart text, .axis_xy text {fill: #696969; font-family: sans-serif; font-size: calc(8px + 0.25vh + 1vw)}}
+@media (min-width: 1000px) {.axis_chart text, .axis_xy text {fill: #696969; font-family: sans-serif; font-size: calc(8px + 0.25vh + 0.5vw)}}
+
+
+/* axis style*/
+.axis_chart path {stroke: none; font: 24px sans-serif;}
+.axis_chart line {stroke: #d3d6b8; font: 24px sans-serif; stroke-width: 0.25;}
+.axis_chart text {fill: var(--text-color); font-size: 0.875rem;}
+
+.axis_chart2 path {stroke: none; font: sans-serif;}
+.axis_chart2 line {stroke: var(--gray); font: sans-serif; stroke-width: 1;}
+.axis_chart2 text {fill: var(--text-color);font-size: 0.6rem;} 
+
+.axis_chart3 path {stroke: none; font: sans-serif;}
+.axis_chart3 line {stroke: #d3d6b8; font: sans-serif; stroke-width: 0.25;}
+.axis_chart3 text {fill: var(--text-color); font-size: 0.6rem;}
+
+.axis_xy path {stroke: #d3d6b8; font: 24px sans-serif;}
+.axis_xy line {stroke: #d3d6b8; font: 24px sans-serif; stroke-width: 0.25;}
+.axis_xy text {fill: var(--text-color); font-size: 0.6rem;}
+
+.axis_brush path {stroke: #d3d6b8; font: 24px sans-serif;}
+.axis_brush line {stroke: #d3d6b8; font: 24px sans-serif; stroke-width: 0.25}
+.axis_brush text {fill: var(--text-color); font-size: 0.45rem;}
+
+.axis-text {fill: #696969; font: 20px sans-serif;}
+.legend-text {fill: #696969; font: 16px sans-serif;}
+
+div.toolTip {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        position: absolute;
+        display: none;
+        max-width: 20%;
+        height: auto;
+        background: none repeat scroll 0 0 white;
+        border: 0 none;
+        border-radius: 8px 8px 8px 8px;
+        box-shadow: -3px 3px 15px #888888;
+        color: black;
+        font-size: 0.6rem;
+        padding: 5px;
+        text-align: left;
+        margin: auto;
+        z-index: 2;
+        overflow-y:auto;
+    }
+
+/* Chart Titles Text */
+.title_text{
+    fill: var(--text-color);
+    font-weight: bold;
+    dominant-baseline: middle;
+    text-anchor: start;
+    font-size: 0.875em;
+}
+
+/* Dropdown */
+rect {
+	/* fill: teal;  */
+}
+.dropdown .option {
+  display:none;
+}
+.dropdown rect{
+  /*stroke-width:0.5;*/ 
+  /*stroke:rgb(0,0,0);*/
+  /*filter: drop-shadow(2px 2px 0.1px grey);*/
+  /*fill: white;*/
+}
+.dropdown:hover .option {
+  display:inline-block;
+}
+.dropdown {
+  cursor:pointer;
+}
+
+.img_logo {
+   align-items: center;
+  justify-content: center;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.scrolltest {overflow-x:scroll;}
+
+.mz_checkbox{
+   background-color: var(--extra-light-gray);
+   position: absolute;
+   cursor: pointer;
+   padding: 0.2em;
+/*   overflow-y:auto;*/
+}
+
+.mz_checkbox2{
+   background-color: var(--extra-light-gray);
+   position: absolute;
+   overflow-y:auto;
+}
+
+
+

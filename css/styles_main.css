@@ -1,0 +1,84 @@
+html {
+    
+  --text-color: #808080;
+  --box-color: #F5F5F5;
+  --box-hover-color: #D3D3D3;
+  
+  --header-font-size: 1rem;
+    
+  --brand-green: hsl(162, 87%, 21%);
+  --dark-green: hsl(162, 88%, 30%);
+  --medium-green: hsl(162, 73%, 46%);
+
+  --gray: hsl(210, 7%, 56%);
+  --light-gray: #A9A9A9;
+  --extra-light-gray: hsl(210, 17%, 98%);
+  --dark-gray: #202020;
+  --white: hsl(0, 0%, 100%);
+  --red: hsl(342, 63%, 46%);
+
+  
+  font-size: calc(0.72em + 0.5vw);
+  box-sizing: border-box;
+  color: var(--text-color);
+}
+
+@media (min-width: 35rem){ html {font-size: calc(0.72em + 0.5vw);}  }
+@media (min-width: 62rem){ html {font-size: calc(0.72em + 0.75vw);}  }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0; 
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+  background-color: var(--extra-light-gray);
+}
+
+/* Button */
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/*   padding: 1em; */
+   border: 0; 
+   color: var(--text-color);
+   background-color: var(--box-color);
+   border-radius: 1rem;
+   margin: 0.3rem 0.3rem 0.3rem 0.3rem;
+   font-size: var(--header-font-size);
+   outline: none;
+}
+.button:hover {  background-color: var(--box-hover-color); }
+.button--selected{    background-color: var(--box-hover-color); }
+
+/* remove mozilla border */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 0;
+}
+
+
+
+/* Central Text */
+.central-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   border: 0; 
+   color: var(--text-color);
+  font-size: var(--header-font-size);
+  font-weight: bold;
+}
+
+/* Box Style */
+.box1{
+  display: flex;
+  background-color: var(--extra-light-gray);
+}

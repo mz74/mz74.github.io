@@ -1,0 +1,45 @@
+
+/* axis style*/
+.axis_chart path {stroke: none; font: 24px sans-serif;}
+.axis_chart line {stroke: #d3d6b8; font: 24px sans-serif; stroke-width: 0.25}
+.axis_chart text {fill: #696969; font: 20px sans-serif;}
+
+div.toolTip {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        position: absolute;
+        display: none;
+        width: auto;
+        height: auto;
+        background: none repeat scroll 0 0 white;
+        border: 0 none;
+        border-radius: 8px 8px 8px 8px;
+        box-shadow: -3px 3px 15px #888888;
+        color: black;
+        font: 12px sans-serif;
+        padding: 5px;
+        text-align: center;
+    }
+    
+select{
+    color:inherit;
+/*      padding: 0.5em 2em 0.5em 1.5em;*/
+      padding: 0.2em;
+      border: 0;
+      margin: 0;   
+      outline: none;
+      cursor: pointer;
+/*      font-size: 1rem;*/
+      background-color: var(--extra-light-gray);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M00h24v24H0z' fill='none'/></svg>"); 
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 5px;
+}
+
+select option {
+  outline: none;
+}
+
+
