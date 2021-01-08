@@ -10,8 +10,10 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
-  gtag('config', 'G-RH9LCKDV1H', { 'anonymize_ip': true });
+  gtag('set', {cookie_flags: 'SameSite=None;Secure',
+              'anonymize_ip': true,
+              "cookie_domain": "mz74.github.io"});
+  gtag('config', 'G-RH9LCKDV1H');
 </script>
 
   <title>Chart</title>
