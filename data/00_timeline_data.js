@@ -103,7 +103,7 @@ const timeline_data = [{
 ];
 
 const timeline_id ={
-   'item 1': 'WirNicht',
+   'item 1': 'Ich',
    'item 2': 'Partner 1', 
    'item 3': 'Firma 2',
    'item 4': 'Extern'
